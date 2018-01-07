@@ -16,41 +16,68 @@
    <meta charset="utf-8">
 </head>
 <STYLE type="text/css">
+     ul.ul1{
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       width: 200px;
+       background-color: #ff9900;
+   }
+-
+-    ul.ul2{
+      ul list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #ff9666;
+-       font-family: 'Montserrat', sans-serif;
+-    }
+-    ul.ul3{
+      ul list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #ff4440;
+-       font-family: 'Montserrat', sans-serif;
+-    }
+-    ul.ul4{
+      ul list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #ff3330;
+-       font-family: 'Montserrat', sans-serif;
+-    }
 
 li a {
     display: block;
     color: #000;
-    padding: 1px 1px;
+    padding: 8px 16px;
     text-decoration: none;
 }
 
 /* Change the link color on hover */
 li a:hover {
-    background-color: #ff9900;
+    background-color: #555;
     color: white;
 }
 
 ul {
 	background: deepskyblue;
-	margin: 1px 1px 1px 1px;
-	padding: 1px 1px 1px 1px;
+	margin: 12px 12px 12px 12px;
+	padding: 3px 3px 3px 3px;
 }
 li {
 	color: black;
 	background: lightgray;
-	margin: 1px 1px 1px 1px;
+	margin: 12px 12px 12px 12px;
 	padding: 12px 0px 12px 12px;
 	list-style: none;
 }
 li.withborder {
 	border-style: dashed;
 	border-width: medium;
-	border-color: gray;
-}
-li.withborder_1 {
-	border-style: dashed;
-	border-width: medium;
-	border-color: red;
+	border-color: black;
 }
 </style>
 
@@ -73,10 +100,10 @@ li.withborder_1 {
 </tr>
 <tr>
 	<td>
-    <ul>
-			<li class="withborder_1"><a href="#Windows">Windows</a></li>
-			<li class="withborder_1"><a href="#Linux">Linux</a></li>
-			<li class="withborder_1"><a href="#Unix">UNIX</a></li>
+    <ul class="ul3">
+			<li><a href="#Windows">Windows</a></li>
+			<li><a href="#Linux">Linux</a></li>
+			<li><a href="#Unix">UNIX</a></li>
     </ul>
     </td>
 </tr>
