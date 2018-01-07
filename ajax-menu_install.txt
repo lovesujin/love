@@ -1,0 +1,88 @@
+HOW TO CREATE AJAX MENU BASED ON UL/LI TAGS
+Step 1: Download zip file with all menu files: ajax-menu-sample.zip.
+
+Step 2: Copy 'ajax-menu.files' folder to the same directory as the page itself.
+
+Step 3: Insert the following code into the <head> section of your page (see index.html file from
+ajax-menu-sample.zip):
+
+
+<script type="text/javascript" src="ajax-menu.files/dmenu.js"></script>
+<noscript><link type="text/css" href="ajax-menu.files/style.css"
+rel="stylesheet"></noscript>
+Step 4: Create an unordered list for your base top navigation. Add the below menu code to the <body> section of your page.
+
+
+<ul id="deluxeMenu">
+  <li><a href="#">Home</a></li>
+  <li><a href="#"><span>Product Info</span></a><a href="info.html"></a></li>
+  <li><a href="#"><span>Samples</span></a><a href="samples.html"></a></li>
+  <li><a href="#">Purchase</a></li>
+  <li><a href="#">Contact Us</a></li>
+</ul>
+<!-- menu script init-->
+<script type="text/javascript" src="ajax-menu.files/data.js"></script>
+In "Product Info" and "Samples" items you can find <a> tags that call external files for your AJAX sub menus.
+
+
+<a href="info.html"></a>
+<a href="samples.html"></a>
+info.html and samples.html are simple html files containing the subitems in the same UL/LI structure. This code calls an external file for your AJAX sub navigation.
+Step 5: Create an external files (info.html, samples.html) for your sub navigation.
+
+info.html
+
+
+<ul style="width:136px;">
+ <li><a href="#">Features</a></li>
+ <li><a href="#"><span>Installation</span></a>
+ <ul style="width:133px;">
+  <li><a href="#">Description of Files</a></li>
+  <li><a href="#">How To Setup</a></li>
+ </ul></li>
+ <li><a href="#">Parameters Info</a></li>
+ <li><a href="#">Dynamic Functions</a></li>
+ <li><a href="#"><span>Supported Browsers</span></a>
+ <ul style="width:117px;">
+  <li><a href="#">Windows OS</a></li>
+  <li><a href="#">Internet Explorer</a></li>
+  <li><a href="#">Firefox</a></li>
+  <li><a href="#">Mozilla</a></li>
+  <li><a href="#">Netscape</a></li>
+  <li><a href="#">Opera</a></li>
+  <li><a href="#">MAC OS</a></li>
+  <li><a href="#">Firefox</a></li>
+  <li><a href="#">Safari</a></li>
+  <li><a href="#">Internet Explorer</a></li>
+  <li><a href="#">Unix/Linux OS</a></li>
+  <li><a href="#">Firefox</a></li>
+  <li><a href="#">Konqueror</a></li>
+ </ul></li>
+</ul>
+samples.html
+
+
+<ul style="width:133px;">
+ <li><a href="#">Sample Menu Items</a></li>
+ <li><a href="#">Sample 1</a></li>
+ <li><a href="#">Sample 2</a></li>
+ <li><a href="#">Sample 3</a></li>
+ <li><a href="#">Sample 4</a></li>
+ <li><a href="#">Sample 5</a></li>
+ <li><a href="#">Sample 6</a></li>
+ <li><a href="#">Sample 7</a></li>
+ <li><a href="#">Sample 8</a></li>
+ <li><a href="#">Sample 9</a></li>
+</ul>
+Step 6: Copy the created info.html and samples.html files to the same directory as the page itself.
+Your menu is ready!
+
+STYLING THE MENU ITEM
+If you want to change the menu style you should change data.js and style.css files which you can find in 'ajax-menu.files' folder.
+
+data.js: This file is used in case when javascript is turned on in your browser.
+Adjust menu parameters manually or use the windows version of Deluxe Tuner to create your own menu. There are a lot of ready-to use templates.
+
+style.css: This file is used in case when javascript is turned off in your browser.
+
+See more info about Menu Items structure also.
