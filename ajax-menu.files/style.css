@@ -10,7 +10,7 @@ ul#deluxeMenu,ul#deluxeMenu ul{
 ul#deluxeMenu {
 	display:block;font-size:0;zoom:1;float: left;}
 ul#deluxeMenu ul{
-	//width:100%;padding:0;}
+	//width:143px;padding:0;}
 ul#deluxeMenu li{
 	display:block;zoom:1;margin:0;font-size:0;float:left;}
 ul#deluxeMenu a:active, ul#deluxeMenu a:focus {outline-style:none}
