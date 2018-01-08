@@ -4,11 +4,11 @@
     <meta charset="utf-8"/>
     <meta name="description" content="The Overflowing church website's main page" />
     <meta name="author" content="unikys@gmail.com" />
-    <title>LOVESUJIN.COM</title>
+    <title>밑바닥부터 홈페이지 만들기[unikys.tistory.com]</title>
     <style>
     #topMenu {
-            height: 50px;  /* 메인 메뉴의 높이 */
-            width: 1080px;  /* 메인 메뉴의 넓이 */
+            height: 30px;  /* 메인 메뉴의 높이 */
+            width: 850px;  /* 메인 메뉴의 넓이 */
     }
     #topMenu ul {           /* 메인 메뉴 안의 ul을 설정함: 상위메뉴의 ul+하위 메뉴의 ul */
         list-style-type: none;  /* 메인 메뉴 안의 ul 내부의 목록 표시를 없애줌 */
@@ -36,7 +36,7 @@
         color: white;
     }
     .topMenuLi:hover .menuLink {    /* 상위 메뉴의 li에 마우스오버 되었을 때 스타일 설정 */
-        color: #ff9900;                 /* 글씨 색 #FF9900 */
+        color: red;                 /* 글씨 색 빨간색 */
         background-color: #4d4d4d;  /* 배경색을 밝은 회색으로 설정 */
     }
     .submenuLink {          /* 하위 메뉴의 a 태그 스타일 설정 */
@@ -70,69 +70,41 @@
     <![endif]-->
 </head>
 <body>
-  <center>
 	<div id="topMenu" >
 		<ul>
 			<li class="topMenuLi">
-                <a class="menuLink" href="index.html">HOME</a>
-           </li>
-			<li>|</li>
-            <li class="topMenuLi">
-                <a class="menuLink" href="os.html">OS</a>
+                <a class="menuLink" href="http://unikys.tistory.com/category/Programming%20Lecture">LECTURES</a>
                 <ul class="submenu">
-                    <li><a href="windows.html" class="submenuLink longLink">Windows</a></li>
-                    <li><a href="linux.html" class="submenuLink longLink">Linux</a></li>
+                    <li><a href="http://unikys.tistory.com/category/Programming%20Lecture/%EC%86%8D%EA%B9%8A%EC%9D%80%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EA%B0%95%EC%A2%8C" class="submenuLink longLink">속깊은 자바스크립트 강좌</a></li>
+                    <li><a href="http://unikys.tistory.com/category/Programming%20Lecture/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0%20%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0" class="submenuLink longLink">밑바닥부터 홈페이지 만들기</a></li>
+                    <li><a href="http://unikys.tistory.com/category/Programming%20Lecture/Android%28%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%29%20%EC%95%B1%20%EA%B0%9C%EB%B0%9C" class="submenuLink longLink">안드로이드 앱 개발</a></li>
                 </ul>
             </li>
 			<li>|</li>
             <li class="topMenuLi">
-                <a class="menuLink" href="html_css.html">HTML/CSS</a>
-                <ul class="submenu">
-                    <li><a href="html.html" class="submenuLink">HTML</a></li>
-                    <li><a href="css.html" class="submenuLink">CSS</a></li>
-                    <li><a href="#" class="submenuLink">참고사이트</a></li>
-                </ul>
+                <a class="menuLink" href="http://unikys.tistory.com/guestbook">GUEST BOOK</a>
             </li>
-        <li>|</li>
+			<li>|</li>
             <li class="topMenuLi">
-                <a class="menuLink" href="musci.html">MUSIC</a>
+                <a class="menuLink" href="http://unikys.tistory.com/tag">TAG CLOUD</a>
                 <ul class="submenu">
-                    <li><a href="popsong.html" class="submenuLink">POP SONG</a></li>
-                    <li><a href="kr_song.html" class="submenuLink">가 요</a></li>
-                    <li><a href="guitar.html" class="submenuLink">Guitar</a></li>
+                    <li><a href="http://unikys.tistory.com/tag/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8" class="submenuLink">자바스크립트</a></li>
+                    <li><a href="http://unikys.tistory.com/tag/%EA%B0%95%EC%A2%8C" class="submenuLink">강좌</a></li>
+                    <li><a href="http://unikys.tistory.com/tag/K100D" class="submenuLink">K100D</a></li>
                 </ul>
             </li>
 			<li>|</li>
             <li class="topMenuLi">
-                <a class="menuLink" href="free_board.html">자유게시판</a>
+                <a class="menuLink" href="http://unikys.tistory.com/media">MEDIA LOG</a>
             </li>
 			<li>|</li>
             <li class="topMenuLi">
-                <a class="menuLink" href="consult_site.html">참고 사이트</a>
+                <a class="menuLink" href="http://unikys.tistory.com/location">LOCATION LOG</a>
             </li>
 		</ul>
 	</div>
-</center>
 
-<div id="disqus_thread"></div>
-<script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://github-lovesujin.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </body>
 </html>
+
