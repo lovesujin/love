@@ -95,7 +95,7 @@
             </li>
         <li>|</li>
             <li class="topMenuLi">
-                <a class="menuLink" href="music.html">MUSIC</a>
+                <a class="menuLink" href="musci.html">MUSIC</a>
                 <ul class="submenu">
                     <li><a href="popsong.html" class="submenuLink">POP SONG</a></li>
                     <li><a href="kr_song.html" class="submenuLink">가 요</a></li>
@@ -108,7 +108,7 @@
             </li>
 			<li>|</li>
             <li class="topMenuLi">
-                <a class="menuLink" href="consult_site.html">참고 사이트</a>
+                <a class="menuLink" href="consult.html">참고 사이트</a>
             </li>
 		</ul>
 	</div>
